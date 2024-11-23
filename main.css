@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+table {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  width: 450px;
+  border-collapse: collapse;
+  border-bottom: 3px solid #25967a;
+}
+table thead {
+  background-color: #25967a;
+  color: white;
+  text-align: left;
+}
+table thead th {
+  padding: 20px;
+}
+table thead .radius-left {
+  border-top-left-radius: 8px;
+}
+table thead .radius-right {
+  border-top-right-radius: 8px;
+}
+table tbody tr  {
+  border-bottom: 2px solid #f5f5f5;
+}
+table tbody tr td {
+  padding: 10px;
+}
